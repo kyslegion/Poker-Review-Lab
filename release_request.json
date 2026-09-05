@@ -1,0 +1,4 @@
+{
+  "version": "2.1.0",
+  "notes": "Human-first replayer UX: synchronized board/range/coach, before-after range changes, semantic range colors, simple/expert mode, safer coach wording and fixed risk_bb sizing bug."
+}

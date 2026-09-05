@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.1.0 — 2026-09-05
+
+- Synchronise strictement table, board, rail de cartes, range et Coach pendant les animations : aucun panneau ne prend de l’avance sur le replayer.
+- Refond le Coach en **choix robuste** compréhensible : la moyenne, la borne prudente et l’incertitude ne se contredisent plus visuellement.
+- Masque `P(best)` en mode simple et le renomme explicitement en mode expert.
+- Réduit la fausse précision quand la fiabilité est faible et affiche une plage d’équité.
+- Corrige le bug `risk_bb` lors de la déduplication d’un sizing ALL-IN.
+- N’expose plus les erreurs Python internes dans l’interface normale.
+- Ajoute une range **avant → après** à chaque action/carte avec résumé des combos effectifs et des classes qui montent/baissent.
+- Ajoute une coloration sémantique de range : value / showdown / draw / air, survol des cellules et bordure de changement.
+- Le rail HERO | BOARD | VILAIN devient la source principale des cartes en mode simple ; les cartes de sièges reviennent en mode expert.
+- Ajoute un mode simple/expert et un bouton pour masquer/afficher la timeline inférieure.
+- Remplace l’indicateur principal `5/14` par un état lisible (`À TOI`, action, pot, montant à payer) ; le compteur reste secondaire.
+- Agrandit les montants de mises engagées et donne plus d’espace à la range live.
+- Remplace le panneau bas par une narration en six étapes : ce qui vient d’arriver, impact sur la range, état Hero, choix, recommandation, pourquoi.
+- Ajoute des tests de régression UX/range et du bug `risk_bb`.
+
 ## 2.0.1 — 2026-09-05
 
 - Corrige un `RecursionError` dans le moteur anti-chevauchement du replayer.

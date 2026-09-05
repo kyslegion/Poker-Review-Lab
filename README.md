@@ -1,6 +1,6 @@
-# Poker Review Lab 2.0
+# Poker Review Lab 2.1
 
-Poker Review Lab est une application **post-session** de tracking, review et analyse d'historiques de mains, développée d'abord pour Winamax. La v2.0 transforme le prototype 0.9.x / 1.0 en un projet beaucoup plus proche d'un vrai tracker de bureau : rapports persistants, warehouse analytique, filtres avancés, tags, notes joueurs, sauvegardes, CI et build Windows.
+Poker Review Lab est une application **post-session** de tracking, review et analyse d'historiques de mains, développée d'abord pour Winamax. La v2.1 consolide le prototype 0.9.x / 1.0 en un projet beaucoup plus proche d'un vrai tracker de bureau : rapports persistants, warehouse analytique, filtres avancés, tags, notes joueurs, sauvegardes, CI et build Windows.
 
 > **Portée volontaire :** analyse après session uniquement. Les fonctions d'analyse exploit/GTO restent verrouillées lorsqu'une room connue est détectée. Le projet ne cherche pas à fournir un HUD décisionnel temps réel.
 
@@ -39,6 +39,15 @@ showdown=true and hand~AK
 type=3BET and tag=Bluff
 date>=2026-01-01
 ```
+
+### Interface de review 2.1
+- état du replayer unique et synchronisé avec les animations ;
+- rail fixe HERO | BOARD | VILAIN comme référence visuelle ;
+- range avant/après avec value / showdown / draw / air ;
+- explication textuelle de ce que chaque carte/action change ;
+- Coach en choix robuste avec équité en plage et fiabilité explicite ;
+- mode simple par défaut, mode expert à la demande ;
+- timeline inférieure masquable pour maximiser l’espace.
 
 ### Review
 - replayer street par street ;

@@ -12,6 +12,8 @@
 - Ajoute une coloration sémantique de range : value / showdown / draw / air, survol des cellules et bordure de changement.
 - Le rail HERO | BOARD | VILAIN devient la source principale des cartes en mode simple ; les cartes de sièges reviennent en mode expert.
 - Ajoute un mode simple/expert et un bouton pour masquer/afficher la timeline inférieure.
+- Condense les outils avancés dans un menu `Analyse ▾` en mode simple ; la barre complète ne réapparaît qu’en mode expert.
+- Rend le tapis visuellement plus discret afin que board, range, action et recommandation dominent la lecture.
 - Remplace l’indicateur principal `5/14` par un état lisible (`À TOI`, action, pot, montant à payer) ; le compteur reste secondaire.
 - Agrandit les montants de mises engagées et donne plus d’espace à la range live.
 - Remplace le panneau bas par une narration en six étapes : ce qui vient d’arriver, impact sur la range, état Hero, choix, recommandation, pourquoi.

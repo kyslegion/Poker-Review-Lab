@@ -47,6 +47,8 @@ date>=2026-01-01
 - explication textuelle de ce que chaque carte/action change ;
 - Coach en choix robuste avec équité en plage et fiabilité explicite ;
 - mode simple par défaut, mode expert à la demande ;
+- outils avancés regroupés dans `Analyse ▾` en mode simple pour libérer de la hauteur ;
+- table visuellement moins dominante pour privilégier board, range et décision ;
 - timeline inférieure masquable pour maximiser l’espace.
 
 ### Review
